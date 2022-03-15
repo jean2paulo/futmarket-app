@@ -1,2 +1,8 @@
 rootProject.name = "FutmarketApp"
-include ':app'
+include(
+        ':app',
+        ':core',
+        ':features:home',
+        ':features:player_detail',
+        ':commons'
+)
