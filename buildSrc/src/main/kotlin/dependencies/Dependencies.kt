@@ -11,6 +11,10 @@ object DependenciesVersions {
     const val NAVIGATION = "2.4.1"
     const val CONSTRAIN_LAYOUT = "2.1.3"
     const val APPCOMPAT = "1.4.1"
+
+    // Retrofit
+    const val RETROFIT = "2.9.0"
+    const val OKHTTP_LOGGING = "4.9.0"
 }
 
 /**
@@ -30,4 +34,10 @@ object Dependencies {
 
     const val CONSTRAIN_LAYOUT = "androidx.constraintlayout:constraintlayout:${DependenciesVersions.CONSTRAIN_LAYOUT}"
     const val APPCOMPAT = "androidx.appcompat:appcompat:${DependenciesVersions.APPCOMPAT}"
+
+    //Retrofit
+    const val RETROFIT = "com.squareup.retrofit2:retrofit:${DependenciesVersions.RETROFIT}"
+    const val RETROFIT_CONVERTER = "com.squareup.retrofit2:converter-gson:${DependenciesVersions.RETROFIT}"
+    const val OKHTTP_LOGGING = "com.squareup.okhttp3:logging-interceptor:${DependenciesVersions.OKHTTP_LOGGING}"
+
 }
